@@ -13,41 +13,41 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
 
 **Check**   &ensp; &ensp; &ensp; &ensp; pedtools Check [options]
 
---in           <FILE>    raw pedigree file
---char         <FILE>    checked pedigree file in character format(clean file)
---num          <FILE>    checked pedigree file in numeric format(clean file)
---log          <FILE>    log file,contain information of pedigree error
---drawCircle             draw the error pedigree that the ancestor is progeny at the same time,by default not draw
---branch       <INT>     branch length of dendrogram,default 3
---width        <INT>     name length of individual,default 20
+    --in           <FILE>    raw pedigree file
+    --char         <FILE>    checked pedigree file in character format(clean file)
+    --num          <FILE>    checked pedigree file in numeric format(clean file)
+    --log          <FILE>    log file,contain information of pedigree error
+    --drawCircle             draw the error pedigree that the ancestor is progeny at the same time,by default not draw
+    --branch       <INT>     branch length of dendrogram,default 3
+    --width        <INT>     name length of individual,default 20
 
 
 **View** &ensp; &ensp; &ensp; &ensp; &ensp; pedtools View [options]
 	
---char         <FILE>    checked pedigree file in character format
---num          <FILE>    checked pedigree file in numeric format
---out          <FILE>    output file
---gender       <CHAR>    gender,default M
---branch       <INT>     branch length of dendrogram,default 5
---width        <INT>     name length of individual,default 20
+    --char         <FILE>    checked pedigree file in character format
+    --num          <FILE>    checked pedigree file in numeric format
+    --out          <FILE>    output file
+    --gender       <CHAR>    gender,default M
+    --branch       <INT>     branch length of dendrogram,default 5
+    --width        <INT>     name length of individual,default 20
 
 
 **Progeny** &ensp; &ensp; &ensp; pedtools Progeny [options]
  
---char         <FILE>    checked pedigree file with character format
---num          <FILE>    checked pedigree file with numeric format
---out          <FILE>    output file
+    --char         <FILE>    checked pedigree file with character format
+    --num          <FILE>    checked pedigree file with numeric format
+    --out          <FILE>    output file
 
 **Kinship** &ensp; &ensp; &ensp; &ensp; pedtools Kinship [options]
 
---char         <FILE>    checked pedigree file in character format
---num          <FILE>    checked pedigree file in numeric format
---out          <FILE>    output file
---outDir       <FILE>    output directory, work with --outBin
---mode         <CHAR>    animal model or sir model [animal | sir]
---outMatrix              output full matrix,otherwise output binary or lower triangle matrix
---outBin                 output binary kinship
---inbreeding             caluculate inbreeding coefficient
+    --char         <FILE>    checked pedigree file in character format
+    --num          <FILE>    checked pedigree file in numeric format
+    --out          <FILE>    output file
+    --outDir       <FILE>    output directory, work with --outBin
+    --mode         <CHAR>    animal model or sir model [animal | sir]
+    --outMatrix              output full matrix,otherwise output binary or lower triangle matrix
+    --outBin                 output binary kinship
+    --inbreeding             caluculate inbreeding coefficient
 
 
 ## Contact

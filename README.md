@@ -11,7 +11,7 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
 
 ## Command and option
 
-**Check** &ensp; &ensp; &ensp; &ensp; pedtools Check [options]
+**Check:** &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; pedtools Check [options]
 --in           <FILE>    raw pedigree file
 --char         <FILE>    checked pedigree file in character format(clean file)
 --num          <FILE>    checked pedigree file in numeric format(clean file)
@@ -21,7 +21,7 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
 --width        <INT>     name length of individual,default 20
 
 
-**View** &ensp; &ensp; &ensp; &ensp; pedtools View [options]	
+**View:** &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; pedtools View [options]	
 --char         <FILE>    checked pedigree file in character format
 --num          <FILE>    checked pedigree file in numeric format
 --out          <FILE>    output file
@@ -30,14 +30,13 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
 --width        <INT>     name length of individual,default 20
 
 
-**Progeny** &ensp; &ensp; &ensp; &ensp; pedtools Progeny [options]
+**Progeny:** &ensp; &ensp; &ensp; &ensp; &ensp; pedtools Progeny [options]
  
 --char         <FILE>    checked pedigree file with character format
 --num          <FILE>    checked pedigree file with numeric format
 --out          <FILE>    output file
 
-			
-**Kinship** &ensp; &ensp; &ensp; &ensp; pedtools Kinship [options]		
+**Kinship:** &ensp; &ensp; &ensp; &ensp; pedtools Kinship [options]		
 --char         <FILE>    checked pedigree file in character format
 --num          <FILE>    checked pedigree file in numeric format
 --out          <FILE>    output file

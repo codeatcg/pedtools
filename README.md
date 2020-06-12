@@ -27,7 +27,7 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
     --char         <FILE>    checked pedigree file in character format
     --num          <FILE>    checked pedigree file in numeric format
     --out          <FILE>    output file
-    --gender       <CHAR>    gender,default M
+    --gender       <CHAR>    gender(M|F),default M
     --branch       <INT>     branch length of dendrogram,default 5
     --width        <INT>     name length of individual,default 20
 

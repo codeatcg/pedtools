@@ -53,6 +53,7 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
 ## Contact
 
 If you find bugs please email me.
+
 Author: Zepu Miao  
 Email:  miaozepu@genomics.cn  
 Institute: Applied agriculture of BGI  

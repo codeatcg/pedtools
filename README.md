@@ -43,8 +43,8 @@ The program was written by C++ and compiled using MinGW 4.9.1 on a 32-bit Window
     --char         <FILE>    checked pedigree file in character format
     --num          <FILE>    checked pedigree file in numeric format
     --out          <FILE>    output file
-    --outDir       <FILE>    output directory, work with --outBin
-    --mode         <CHAR>    animal model or sir model [animal | sir]
+    --outDir       <DIR>     output directory, work with --outBin
+    --mode         <STR>     animal model or sir model [animal | sir]
     --outMatrix              output full matrix,otherwise output binary or lower triangle matrix
     --outBin                 output binary kinship
     --inbreeding             caluculate inbreeding coefficient

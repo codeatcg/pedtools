@@ -1,5 +1,5 @@
 
-#pedtools: a robust tool to tidy the complex pedigree with incorrect information and do analysis
+# pedtools: a robust tool to tidy and analyse the complex pedigree with incorrect information
 
 ## Description
 
